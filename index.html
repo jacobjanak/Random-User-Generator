@@ -5,7 +5,6 @@
 	<link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-	
 	<div id="app">
 		<img :src="picture" :alt="`${firstName} ${lastName}`" />
 		<h1>{{firstName}} {{lastName}}</h1>
@@ -13,7 +12,7 @@
 		<button :class="gender" v-on:click="getUser">Get Random User</button>
 	</div>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.37/vue.cjs.prod.min.js" integrity="sha512-d8WUoQ6P2OCbVGqykNj5Dn6RsRtuPkFDLXQbAgb4QgnFIgP6RYJJ61R69tFFOVH7Y/AsF8IW97oeIlkX3m113Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://unpkg.com/vue@3"></script>
 	<script src="./script.js"></script>
 </body>
 </html>
