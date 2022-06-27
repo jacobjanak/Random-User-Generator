@@ -8,7 +8,7 @@
 	<div id="app">
 		<img :src="picture" :alt="`${firstName} ${lastName}`" />
 		<h1>{{firstName}} {{lastName}}</h1>
-		<h3>Email: {{email}}</h3>
+		<h3>{{email}}</h3>
 		<button :class="gender" v-on:click="getUser">Get Random User</button>
 	</div>
 
